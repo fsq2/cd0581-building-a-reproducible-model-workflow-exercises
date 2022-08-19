@@ -1,0 +1,9 @@
+2022-08-19 00:39:32,615 Getting artifact
+Traceback (most recent call last):
+  File "use_artifact.py", line 43, in <module>
+    go(args)
+  File "use_artifact.py", line 21, in go
+    artifact = wandb.Artifact(name=args.artifact_name, type="file")
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/MlopsU/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 137, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: "exercise_1/zen_of_python:v1"

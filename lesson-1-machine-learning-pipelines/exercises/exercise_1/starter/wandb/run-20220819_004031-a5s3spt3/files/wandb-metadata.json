@@ -1,0 +1,25 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-08-18T21:40:32.890912",
+    "startedAt": "2022-08-18T21:40:31.651608",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--artifact_name",
+        "exercise_1/zen_of_python:v1"
+    ],
+    "state": "running",
+    "program": "use_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py",
+    "git": {
+        "remote": "https://github.com/fsq2/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": "43818190+fsq2@users.noreply.github.com",
+    "root": "/Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "fahads-MacBook-Pro.local",
+    "username": "fahadalqhtani",
+    "executable": "/Users/fahadalqhtani/opt/anaconda3/envs/MlopsU/bin/python"
+}
