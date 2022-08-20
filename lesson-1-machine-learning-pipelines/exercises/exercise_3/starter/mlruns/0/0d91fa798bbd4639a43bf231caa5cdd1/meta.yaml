@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/0d91fa798bbd4639a43bf231caa5cdd1/artifacts
+end_time: 1661031280208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 0d91fa798bbd4639a43bf231caa5cdd1
+run_uuid: 0d91fa798bbd4639a43bf231caa5cdd1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661031024750
+status: 3
+tags: []
+user_id: fahadalqhtani
