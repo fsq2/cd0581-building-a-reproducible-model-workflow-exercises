@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/mlruns/0/69aa74c2288b4de5847e6f6cedf2d8df/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 69aa74c2288b4de5847e6f6cedf2d8df
+run_uuid: 69aa74c2288b4de5847e6f6cedf2d8df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661056886761
+status: 1
+tags: []
+user_id: fahadalqhtani

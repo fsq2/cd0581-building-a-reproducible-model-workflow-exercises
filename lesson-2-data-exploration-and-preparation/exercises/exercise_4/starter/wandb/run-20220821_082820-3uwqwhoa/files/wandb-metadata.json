@@ -1,0 +1,21 @@
+{
+    "os": "macOS-12.5.1-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-08-21T05:28:21.947930",
+    "startedAt": "2022-08-21T05:28:20.218911",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "/Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises",
+    "git": {
+        "remote": "https://github.com/fsq2/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "b057762d6c99611d69215b5e788c8aaf1cfdff9e"
+    },
+    "email": "43818190+fsq2@users.noreply.github.com",
+    "host": "fahads-MacBook-Pro.local",
+    "username": "fahadalqhtani",
+    "executable": "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-81e0ad4d3fa24a8811890c19690f70ef542b1518/bin/python"
+}
