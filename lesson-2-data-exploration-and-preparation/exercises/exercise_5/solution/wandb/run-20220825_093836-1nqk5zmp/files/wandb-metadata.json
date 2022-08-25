@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.5.1-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-08-25T06:38:38.387958",
+    "startedAt": "2022-08-25T06:38:36.322725",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_4/genres_mod.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "clean_data",
+        "--artifact_description",
+        "processing data"
+    ],
+    "state": "running",
+    "program": "/Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/run.py",
+    "codePath": "lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/run.py",
+    "git": {
+        "remote": "https://github.com/fsq2/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "ddc9980895fb501ad2c7c1e4773f3b8f061cf743"
+    },
+    "email": "43818190+fsq2@users.noreply.github.com",
+    "root": "/Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "fahads-MBP",
+    "username": "fahadalqhtani",
+    "executable": "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-484b576132a8d4f86bd93cd736b9c9cac218a14d/bin/python"
+}

@@ -1,0 +1,27 @@
+2022-08-25 09:44:07,467 INFO    MainThread:11395 [wandb_setup.py:_flush():76] Configure stats pid to 11395
+2022-08-25 09:44:07,468 INFO    MainThread:11395 [wandb_setup.py:_flush():76] Loading settings from /Users/fahadalqhtani/.config/wandb/settings
+2022-08-25 09:44:07,468 INFO    MainThread:11395 [wandb_setup.py:_flush():76] Loading settings from /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/wandb/settings
+2022-08-25 09:44:07,468 INFO    MainThread:11395 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-25 09:44:07,468 WARNING MainThread:11395 [wandb_setup.py:_flush():76] Could not save program above cwd: /Users/fahadalqhtani/opt/anaconda3/envs/mlflow-9b575e9cf94d53234d1f1da8df50bc6e48eed22b/bin/pytest
+2022-08-25 09:44:07,468 INFO    MainThread:11395 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-9b575e9cf94d53234d1f1da8df50bc6e48eed22b/bin/pytest'}
+2022-08-25 09:44:07,468 INFO    MainThread:11395 [wandb_init.py:_log_setup():461] Logging user logs to /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/wandb/run-20220825_094407-f4u6cr3q/logs/debug.log
+2022-08-25 09:44:07,468 INFO    MainThread:11395 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/wandb/run-20220825_094407-f4u6cr3q/logs/debug-internal.log
+2022-08-25 09:44:07,469 INFO    MainThread:11395 [wandb_init.py:init():495] calling init triggers
+2022-08-25 09:44:07,469 INFO    MainThread:11395 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-08-25 09:44:07,469 INFO    MainThread:11395 [wandb_init.py:init():548] starting backend
+2022-08-25 09:44:07,469 INFO    MainThread:11395 [wandb_init.py:init():552] setting up manager
+2022-08-25 09:44:07,473 INFO    MainThread:11395 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-08-25 09:44:07,475 INFO    MainThread:11395 [wandb_init.py:init():558] backend started and connected
+2022-08-25 09:44:07,478 INFO    MainThread:11395 [wandb_init.py:init():636] updated telemetry
+2022-08-25 09:44:07,512 INFO    MainThread:11395 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-08-25 09:44:08,555 INFO    MainThread:11395 [wandb_run.py:_on_init():1982] communicating current version
+2022-08-25 09:44:08,950 INFO    MainThread:11395 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.13.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-08-25 09:44:08,950 INFO    MainThread:11395 [wandb_init.py:init():700] starting run threads in backend
+2022-08-25 09:44:10,765 INFO    MainThread:11395 [wandb_run.py:_console_start():1962] atexit reg
+2022-08-25 09:44:10,766 INFO    MainThread:11395 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-08-25 09:44:10,766 INFO    MainThread:11395 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-08-25 09:44:10,766 INFO    MainThread:11395 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-08-25 09:44:10,766 INFO    MainThread:11395 [wandb_init.py:init():732] run started, returning control to user process
+2022-08-25 09:44:19,441 WARNING MsgRouterThr:11395 [router.py:message_loop():76] message_loop has been closed
