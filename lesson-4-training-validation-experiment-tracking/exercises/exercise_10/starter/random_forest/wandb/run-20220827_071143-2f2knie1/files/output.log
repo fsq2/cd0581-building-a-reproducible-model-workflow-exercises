@@ -1,0 +1,13 @@
+
+2022-08-27 07:11:46,566 Downloading and reading train artifact
+2022-08-27 07:11:48,877 Extracting target from dataframe
+2022-08-27 07:11:48,883 Splitting train/val
+2022-08-27 07:11:48,910 Setting up pipeline
+Traceback (most recent call last):
+  File "run.py", line 189, in <module>
+    go(args)
+  File "run.py", line 43, in go
+    pipe = get_inference_pipeline(args)
+  File "run.py", line 140, in get_inference_pipeline
+    ("cat",categorical_transformer, categorical_features)
+TypeError: 'tuple' object is not callable

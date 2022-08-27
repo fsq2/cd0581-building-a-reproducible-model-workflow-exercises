@@ -1,0 +1,20 @@
+
+2022-08-27 07:18:35,051 Downloading and reading train artifact
+2022-08-27 07:18:37,362 Extracting target from dataframe
+2022-08-27 07:18:37,369 Splitting train/val
+2022-08-27 07:18:37,400 Setting up pipeline
+2022-08-27 07:18:37,404 Fitting
+2022-08-27 07:18:57,255 Scoring
+Traceback (most recent call last):
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-a7ef9bf1a4622f7d18b6995c2e95959babaa28b5/lib/python3.8/site-packages/sklearn/pipeline.py", line 220, in __getitem__
+    name, est = self.steps[ind]
+TypeError: list indices must be integers or slices, not str
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 186, in <module>
+    go(args)
+  File "run.py", line 60, in go
+    feat_imp = pipe["classifier"].feature_importances_[: len(feat_names)]
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-a7ef9bf1a4622f7d18b6995c2e95959babaa28b5/lib/python3.8/site-packages/sklearn/pipeline.py", line 223, in __getitem__
+    return self.named_steps[ind]
+KeyError: 'classifier'
