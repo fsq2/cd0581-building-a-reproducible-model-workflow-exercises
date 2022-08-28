@@ -1,0 +1,185 @@
+2022-08-28 10:23:15,265 INFO    StreamThr :49124 [internal.py:wandb_internal():90] W&B internal server running at pid: 49124, started at: 2022-08-28 10:23:15.238508
+2022-08-28 10:23:15,292 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: status
+2022-08-28 10:23:15,297 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: status
+2022-08-28 10:23:15,317 DEBUG   SenderThread:49124 [sender.py:send():302] send: header
+2022-08-28 10:23:15,319 INFO    WriterThread:49124 [datastore.py:open_for_write():75] open: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/run-3qpa9q1o.wandb
+2022-08-28 10:23:15,418 DEBUG   SenderThread:49124 [sender.py:send():302] send: run
+2022-08-28 10:23:16,589 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: check_version
+2022-08-28 10:23:16,593 INFO    SenderThread:49124 [dir_watcher.py:__init__():216] watching files in: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files
+2022-08-28 10:23:16,593 INFO    SenderThread:49124 [sender.py:_start_run_threads():913] run started: 3qpa9q1o with start time 1661671395.207817
+2022-08-28 10:23:16,593 DEBUG   SenderThread:49124 [sender.py:send():302] send: summary
+2022-08-28 10:23:16,594 INFO    SenderThread:49124 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-28 10:23:16,594 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: check_version
+2022-08-28 10:23:17,386 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: run_start
+2022-08-28 10:23:17,391 DEBUG   HandlerThread:49124 [meta.py:__init__():35] meta init
+2022-08-28 10:23:17,391 DEBUG   HandlerThread:49124 [meta.py:__init__():50] meta init done
+2022-08-28 10:23:17,391 DEBUG   HandlerThread:49124 [meta.py:probe():216] probe
+2022-08-28 10:23:17,394 DEBUG   HandlerThread:49124 [meta.py:_setup_git():206] setup git
+2022-08-28 10:23:17,509 DEBUG   HandlerThread:49124 [meta.py:_setup_git():213] setup git done
+2022-08-28 10:23:17,513 DEBUG   HandlerThread:49124 [meta.py:_save_pip():54] save pip
+2022-08-28 10:23:17,517 DEBUG   HandlerThread:49124 [meta.py:_save_pip():68] save pip done
+2022-08-28 10:23:17,518 DEBUG   HandlerThread:49124 [meta.py:_save_conda():75] save conda
+2022-08-28 10:23:17,603 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/wandb-summary.json
+2022-08-28 10:23:17,604 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/conda-environment.yaml
+2022-08-28 10:23:17,604 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/requirements.txt
+2022-08-28 10:23:21,498 DEBUG   HandlerThread:49124 [meta.py:_save_conda():85] save conda done
+2022-08-28 10:23:21,499 DEBUG   HandlerThread:49124 [meta.py:probe():254] probe done
+2022-08-28 10:23:21,512 DEBUG   SenderThread:49124 [sender.py:send():302] send: files
+2022-08-28 10:23:21,512 INFO    SenderThread:49124 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-28 10:23:21,539 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-28 10:23:21,542 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: stop_status
+2022-08-28 10:23:21,604 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/conda-environment.yaml
+2022-08-28 10:23:21,605 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/wandb-metadata.json
+2022-08-28 10:23:22,280 DEBUG   SenderThread:49124 [sender.py:send():302] send: telemetry
+2022-08-28 10:23:22,610 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/output.log
+2022-08-28 10:23:23,175 INFO    Thread-16 :49124 [upload_job.py:push():138] Uploaded file /var/folders/8p/6kpvf7ts1flg459z5pjvmrq80000gn/T/tmpqcbkve7owandb/hm8tdidj-wandb-metadata.json
+2022-08-28 10:23:24,615 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/output.log
+2022-08-28 10:23:24,882 DEBUG   SenderThread:49124 [sender.py:send():302] send: exit
+2022-08-28 10:23:24,883 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:24,883 INFO    SenderThread:49124 [sender.py:send_exit():438] handling exit code: 1
+2022-08-28 10:23:24,883 INFO    SenderThread:49124 [sender.py:send_exit():440] handling runtime: 7
+2022-08-28 10:23:24,885 INFO    SenderThread:49124 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-28 10:23:24,885 INFO    SenderThread:49124 [sender.py:send_exit():446] send defer
+2022-08-28 10:23:24,885 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:24,886 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:24,887 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-28 10:23:24,887 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:24,887 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-08-28 10:23:24,887 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 1
+2022-08-28 10:23:24,888 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:24,888 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-28 10:23:24,936 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:24,936 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-08-28 10:23:24,936 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 2
+2022-08-28 10:23:24,937 DEBUG   SenderThread:49124 [sender.py:send():302] send: stats
+2022-08-28 10:23:24,937 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:24,938 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-28 10:23:24,938 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:24,938 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-08-28 10:23:24,938 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 3
+2022-08-28 10:23:24,939 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:24,939 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-28 10:23:24,939 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:24,939 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-08-28 10:23:24,939 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 4
+2022-08-28 10:23:24,940 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:24,940 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-28 10:23:24,940 DEBUG   SenderThread:49124 [sender.py:send():302] send: summary
+2022-08-28 10:23:24,941 INFO    SenderThread:49124 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-28 10:23:24,941 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:24,941 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-08-28 10:23:24,942 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 5
+2022-08-28 10:23:24,942 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:24,942 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-28 10:23:24,942 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:24,943 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-08-28 10:23:24,988 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:25,494 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 6
+2022-08-28 10:23:25,494 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:25,495 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:25,495 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-28 10:23:25,496 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:25,496 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-08-28 10:23:25,600 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:25,619 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/config.yaml
+2022-08-28 10:23:25,619 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/wandb-summary.json
+2022-08-28 10:23:26,302 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 7
+2022-08-28 10:23:26,303 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:26,304 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:26,304 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-28 10:23:26,305 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:26,305 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-08-28 10:23:26,305 INFO    SenderThread:49124 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-08-28 10:23:26,410 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:26,625 INFO    Thread-12 :49124 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/output.log
+2022-08-28 10:23:26,629 INFO    SenderThread:49124 [dir_watcher.py:finish():392] scan: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files
+2022-08-28 10:23:26,629 INFO    SenderThread:49124 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/requirements.txt requirements.txt
+2022-08-28 10:23:26,630 INFO    SenderThread:49124 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/output.log output.log
+2022-08-28 10:23:26,630 INFO    SenderThread:49124 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/config.yaml config.yaml
+2022-08-28 10:23:26,630 INFO    SenderThread:49124 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/wandb-summary.json wandb-summary.json
+2022-08-28 10:23:26,633 INFO    SenderThread:49124 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/conda-environment.yaml conda-environment.yaml
+2022-08-28 10:23:26,633 INFO    SenderThread:49124 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/wandb-metadata.json wandb-metadata.json
+2022-08-28 10:23:26,633 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 8
+2022-08-28 10:23:26,633 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:26,636 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:26,636 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-28 10:23:26,638 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:26,638 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-08-28 10:23:26,638 INFO    SenderThread:49124 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-28 10:23:26,740 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:26,740 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:26,843 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:26,844 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:26,948 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:26,948 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,051 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,051 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,152 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,153 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,255 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,255 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,362 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,362 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,466 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,467 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,574 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,575 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,676 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,677 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,782 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,782 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,884 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,884 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:27,985 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:27,986 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,090 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,090 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,194 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,194 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,259 INFO    Thread-20 :49124 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/wandb-summary.json
+2022-08-28 10:23:28,300 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,301 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,351 INFO    Thread-17 :49124 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/requirements.txt
+2022-08-28 10:23:28,405 INFO    Thread-19 :49124 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/config.yaml
+2022-08-28 10:23:28,405 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,406 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,432 INFO    Thread-21 :49124 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/conda-environment.yaml
+2022-08-28 10:23:28,459 INFO    Thread-18 :49124 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/files/output.log
+2022-08-28 10:23:28,508 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,508 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,614 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,614 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,664 INFO    Thread-11 :49124 [sender.py:transition_state():459] send defer: 9
+2022-08-28 10:23:28,664 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:28,664 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-28 10:23:28,665 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:28,665 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-08-28 10:23:28,718 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:28,908 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 10
+2022-08-28 10:23:28,908 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:28,909 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:28,909 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-28 10:23:28,910 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:28,910 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-08-28 10:23:28,910 INFO    SenderThread:49124 [sender.py:transition_state():459] send defer: 11
+2022-08-28 10:23:28,911 DEBUG   SenderThread:49124 [sender.py:send():302] send: final
+2022-08-28 10:23:28,911 DEBUG   SenderThread:49124 [sender.py:send():302] send: footer
+2022-08-28 10:23:28,912 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: defer
+2022-08-28 10:23:28,912 INFO    HandlerThread:49124 [handler.py:handle_request_defer():164] handle defer: 11
+2022-08-28 10:23:28,912 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: defer
+2022-08-28 10:23:28,912 INFO    SenderThread:49124 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-08-28 10:23:29,014 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-28 10:23:29,014 DEBUG   SenderThread:49124 [sender.py:send_request():316] send_request: poll_exit
+2022-08-28 10:23:29,015 INFO    SenderThread:49124 [file_pusher.py:join():176] waiting for file pusher
+2022-08-28 10:23:30,323 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-28 10:23:30,324 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-28 10:23:30,325 INFO    MainThread:49124 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-28 10:23:30,325 INFO    MainThread:49124 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-28 10:23:30,325 INFO    MainThread:49124 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-08-28 10:23:30,326 DEBUG   HandlerThread:49124 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-28 10:23:30,326 INFO    HandlerThread:49124 [handler.py:finish():810] shutting down handler
+2022-08-28 10:23:30,918 INFO    WriterThread:49124 [datastore.py:close():279] close: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_102315-3qpa9q1o/run-3qpa9q1o.wandb
+2022-08-28 10:23:31,220 INFO    SenderThread:49124 [sender.py:finish():1312] shutting down sender
+2022-08-28 10:23:31,221 INFO    SenderThread:49124 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-28 10:23:31,221 INFO    SenderThread:49124 [file_pusher.py:join():176] waiting for file pusher
+2022-08-28 10:23:32,289 INFO    MainThread:49124 [internal.py:handle_exit():80] Internal process exited

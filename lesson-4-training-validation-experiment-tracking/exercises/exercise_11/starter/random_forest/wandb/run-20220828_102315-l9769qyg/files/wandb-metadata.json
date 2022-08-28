@@ -1,0 +1,27 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-08-28T07:23:17.365764",
+    "startedAt": "2022-08-28T07:23:15.196083",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2022-08-28/10-22-56/10/random_forest_config.yml"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/fsq2/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "69657397ef6ef4535fc75d56ccd777d29ff747c5"
+    },
+    "email": "43818190+fsq2@users.noreply.github.com",
+    "root": "/Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "fahads-MacBook-Pro.local",
+    "username": "fahadalqhtani",
+    "executable": "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-daa49f50394a29b25be6bee5f42d6e77b27f556d/bin/python"
+}

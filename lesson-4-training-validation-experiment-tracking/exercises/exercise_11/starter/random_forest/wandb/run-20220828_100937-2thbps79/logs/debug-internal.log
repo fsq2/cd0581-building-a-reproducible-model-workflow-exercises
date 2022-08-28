@@ -1,0 +1,42 @@
+2022-08-28 10:09:37,326 INFO    StreamThr :46026 [internal.py:wandb_internal():90] W&B internal server running at pid: 46026, started at: 2022-08-28 10:09:37.324393
+2022-08-28 10:09:37,346 DEBUG   HandlerThread:46026 [handler.py:handle_request():141] handle_request: status
+2022-08-28 10:09:37,347 DEBUG   SenderThread:46026 [sender.py:send_request():316] send_request: status
+2022-08-28 10:09:37,359 INFO    WriterThread:46026 [datastore.py:open_for_write():75] open: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/run-2thbps79.wandb
+2022-08-28 10:09:37,361 DEBUG   SenderThread:46026 [sender.py:send():302] send: header
+2022-08-28 10:09:37,402 DEBUG   SenderThread:46026 [sender.py:send():302] send: run
+2022-08-28 10:09:38,623 DEBUG   HandlerThread:46026 [handler.py:handle_request():141] handle_request: check_version
+2022-08-28 10:09:38,628 INFO    SenderThread:46026 [dir_watcher.py:__init__():216] watching files in: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files
+2022-08-28 10:09:38,628 INFO    SenderThread:46026 [sender.py:_start_run_threads():913] run started: 2thbps79 with start time 1661670577.30339
+2022-08-28 10:09:38,628 DEBUG   SenderThread:46026 [sender.py:send():302] send: summary
+2022-08-28 10:09:38,629 INFO    SenderThread:46026 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-28 10:09:38,629 DEBUG   SenderThread:46026 [sender.py:send_request():316] send_request: check_version
+2022-08-28 10:09:39,335 DEBUG   HandlerThread:46026 [handler.py:handle_request():141] handle_request: run_start
+2022-08-28 10:09:39,338 DEBUG   HandlerThread:46026 [meta.py:__init__():35] meta init
+2022-08-28 10:09:39,338 DEBUG   HandlerThread:46026 [meta.py:__init__():50] meta init done
+2022-08-28 10:09:39,338 DEBUG   HandlerThread:46026 [meta.py:probe():216] probe
+2022-08-28 10:09:39,341 DEBUG   HandlerThread:46026 [meta.py:_setup_git():206] setup git
+2022-08-28 10:09:39,468 DEBUG   HandlerThread:46026 [meta.py:_setup_git():213] setup git done
+2022-08-28 10:09:39,470 DEBUG   HandlerThread:46026 [meta.py:_save_pip():54] save pip
+2022-08-28 10:09:39,471 DEBUG   HandlerThread:46026 [meta.py:_save_pip():68] save pip done
+2022-08-28 10:09:39,472 DEBUG   HandlerThread:46026 [meta.py:_save_conda():75] save conda
+2022-08-28 10:09:39,640 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/requirements.txt
+2022-08-28 10:09:39,642 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/conda-environment.yaml
+2022-08-28 10:09:39,642 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/wandb-summary.json
+2022-08-28 10:09:43,649 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/conda-environment.yaml
+2022-08-28 10:09:43,893 DEBUG   HandlerThread:46026 [meta.py:_save_conda():85] save conda done
+2022-08-28 10:09:43,894 DEBUG   HandlerThread:46026 [meta.py:probe():254] probe done
+2022-08-28 10:09:43,901 DEBUG   SenderThread:46026 [sender.py:send():302] send: files
+2022-08-28 10:09:43,902 INFO    SenderThread:46026 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-28 10:09:43,915 DEBUG   HandlerThread:46026 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-28 10:09:43,916 DEBUG   SenderThread:46026 [sender.py:send_request():316] send_request: stop_status
+2022-08-28 10:09:44,619 DEBUG   SenderThread:46026 [sender.py:send():302] send: telemetry
+2022-08-28 10:09:44,653 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/output.log
+2022-08-28 10:09:44,654 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/wandb-metadata.json
+2022-08-28 10:09:45,414 INFO    Thread-16 :46026 [upload_job.py:push():138] Uploaded file /var/folders/8p/6kpvf7ts1flg459z5pjvmrq80000gn/T/tmpv9pvbskwwandb/3iahm6on-wandb-metadata.json
+2022-08-28 10:09:46,663 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/output.log
+2022-08-28 10:09:47,041 DEBUG   SenderThread:46026 [sender.py:send():302] send: config
+2022-08-28 10:09:48,665 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/output.log
+2022-08-28 10:09:52,602 DEBUG   SenderThread:46026 [sender.py:send():302] send: summary
+2022-08-28 10:09:52,603 INFO    SenderThread:46026 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-28 10:09:52,680 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/output.log
+2022-08-28 10:09:52,681 INFO    Thread-12 :46026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220828_100937-2thbps79/files/wandb-summary.json

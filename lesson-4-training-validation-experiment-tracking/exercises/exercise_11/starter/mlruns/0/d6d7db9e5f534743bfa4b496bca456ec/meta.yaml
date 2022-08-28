@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fahadalqhtani/Documents/GitHub/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d6d7db9e5f534743bfa4b496bca456ec/artifacts
+end_time: 1661671420070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d6d7db9e5f534743bfa4b496bca456ec
+run_uuid: d6d7db9e5f534743bfa4b496bca456ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661671383511
+status: 3
+tags: []
+user_id: fahadalqhtani
